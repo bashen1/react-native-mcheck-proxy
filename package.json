@@ -1,6 +1,6 @@
 {
   "name": "react-native-mcheck-proxy",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "检测是否挂了代理服务器",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,6 @@
   "homepage": "https://github.com/bashen1/react-native-mcheck-proxy#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "devDependencies": {
-    "react-native": ">=0.60"
   },
   "peerDependencies": {
     "react-native": ">=0.60"

@@ -11,17 +11,16 @@ npm install react-native-mcheck-proxy
 ## Usage
 
 ```js
-import McheckProxy from "react-native-mcheck-proxy";
+import * as McheckProxy from "react-native-mcheck-proxy";
 
 // ...
 
-const result = await McheckProxy.multiply(3, 7);
+//vpn检测（同步）
+const detectVPN = CheckProxy.detectVPNSync();
+//代理ip检测（同步）
+const detectProxy = CheckProxy.detectProxySync();
+//vpn检测
+const detectVPN = await CheckProxy.detectVPNSync();
+//代理ip检测
+const detectProxy =  await CheckProxy.detectProxySync();
 ```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
